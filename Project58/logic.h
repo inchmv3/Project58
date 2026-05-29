@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-int count_average(int array[], int size);
+#define DEFAULT_SIZE 10
+void init(int marks[], int size);
+double average(int marks[], int size);
